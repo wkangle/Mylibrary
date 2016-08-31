@@ -34,6 +34,9 @@
 ----------
 
 
+####代码App包说明：程序基于一个MainActivity,根据listView 位置确定启动那个Activity，Activity命名依据其所在listview的位置决定，内部的activity再启动会追加AXXsubXXActivity为命名规则
+
+
 
 ----------------------------
 ·新增pickerView
