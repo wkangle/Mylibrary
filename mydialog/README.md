@@ -10,7 +10,7 @@
               dialog.show();
 
 ----------------------------------------------------------
-![image](https://github.com/wkangle/Mylibrary/blob/master/dialog.gif )   
+![image](https://github.com/wkangle/Mylibrary/blob/master/mydialog/gif/dialog.gif )   
 
 2016年8月30日19:34:08
 
@@ -25,7 +25,7 @@
 
 -----------------------------------------------------------------
 
-![image](https://github.com/wkangle/Mylibrary/blob/master/toast.gif )   
+![image](https://github.com/wkangle/Mylibrary/blob/master/mydialog/gif/toast.gif )   
 
 只需调用此工具类显示信息即可，在这个类里，全局只维护了唯一的toast ，不会出现多个toast覆盖和长时间显示不消退
 2016年8月30日20:09:38
