@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="newslist_item_background" type="drawable">#FFE7E7E7</item>
+
+    <color name="color_yeehealth_bg">#f8f8f8</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_text_white">#ffffffff</color>
+    <color name="color_stroke_default">#ffcccccc</color>
+    <color name="color_base_edittext_hint_color">#ffa4a6b0</color>
+    <color name="color_bocop_dialog_bg">#77000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="color_choose_eara_item_press_color">#f4f4f4</color>
+    <color name="no_color">#00000000</color>
+    <color name="color_yeehealth_title_bg">#F8F8F8</color>
+    <color name="color_title_left_selected">#FFE3E0D7</color>
+    <!-- 颜色：半透明 -->
+    <color name="color_translucent">#95FFFFFF</color>
+    <!-- 颜色：透明 -->
+    <color name="color_transparent">#00000000</color>
+    <!-- 头部中间字体黑色 -->
+    <color name="color_black">#292929</color>
+    <!-- 下划线的背景颜色 -->
+    <color name="color_down_line_color">#E5E5E5</color>
+    <!-- 医生信息数字字体颜色 -->
+    <color name="color_doctor_number">#FE9B68</color>
+    <!-- 医生信息字体颜色 -->
+    <color name="color_doctor_info">#B5B5B5</color>
+    <!-- 绿色 -->
+    <color name="green">#34b45b</color>
+    <color name="blue">#0000ff</color>
+    <color name="red">#ff0000</color>
+    <color name="df_table_item_bgcolor_normal">#FFFFFFFF</color>
+    <color name="df_table_item_bgcolor_pressed">#DDF3FF</color>
+    <color name="darkgrey">#C2C2C2</color>
+
+    <!-- 橙色 -->
+    <color name="orange">#FF4801</color>
+    <!-- radiobutton的字体颜色 -->
+    <color name="color_text_selected">#ff19c108</color>
+    <color name="color_text_normal">#ff9b9cb0</color>
+    <!-- radiobutton的字体颜色 -->
+    <color name="delblue">#6797C0</color>
+
+    <!-- 自定义iso对话框 开始 -->
+    <color name="trans">#00000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <!-- 自定义iso对话框 结束 -->
+    <!-- Fragment切换字体颜色变化 -->
+    <color name="color_viewpage_fragment_title">#45C01A</color>
+    <!-- Fragment切换字体颜色变化 -->
+    
+    <!-- header + viewpager -->
+     <color name="colorPrimary">#6570da</color>
+    <color name="colorPrimaryDark">#4b529c</color>
+    <!-- header + viewpager -->
+    
+    <!-- 账号底色 -->
+     <color name="color_bg_account">#F3F3F3</color>
+    <!-- 账号底色 -->
+    
+    <!-- Photo Viewer Colors -->
+    <color name="solid_black">#ff000000</color>
+    <color name="photo_crop_dim_color">#cc000000</color>
+    <color name="photo_crop_highlight_color">#fff</color>  
+
+</resources>

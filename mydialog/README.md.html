@@ -1,0 +1,52 @@
+﻿<!doctype html public '-//W3C//DTD HTML 4.0 Transitional //EN'>
+<html>
+<head>
+<title>README</title>
+<meta charset='UTF-8' />
+<meta name='generator' content='EverEdit' />
+<link href='E:\Program Files\EverEdit\mode\markdown\default.css' rel='stylesheet'></link>
+<link href='E:\Program Files\EverEdit\mode\markdown\prettify.css' rel='stylesheet'></link>
+<script type='text/javascript' src='E:\Program Files\EverEdit\mode\markdown\prettify.js'></script>
+<script type='text/javascript' src='E:\Program Files\EverEdit\mode\markdown\jquery-1.10.2.min.js'></script>
+<script type='text/javascript' src='E:\Program Files\EverEdit\mode\markdown\toc.js'></script>
+</head>
+<body>
+<div id='generated-toc'></div>
+<h1>自定义对话框及吐司library</h1>
+
+<h1>DefineCustomProgressDialog:</h1>
+
+<p>如下用法，只需要用静态方法创建一个dialog，并设置要显示的信息，然后显示即可，</p>
+
+<h2>不需要再设置dialog的其他通用属性，dialog默认可通过返回键关闭</h2>
+
+<p>DefineCustomProgressDialog dialog = DefineCustomProgressDialog.createDialog(this);
+       dialog.setMessage("我是自定义加载对话框的信息！");
+       dialog.show();</p>
+
+<hr />
+
+<p>2016年8月30日19:34:08</p>
+
+<h1>自定义吐司</h1>
+
+<p>~ToastUtils</p>
+
+<h2>如下用法：</h2>
+
+<p>ToastUtils.showMessage(&#8221;永远相信\n美好的事情即将发生&#8221;,XXXActivity.this);</p>
+
+<hr />
+
+<p>只需调用此工具类显示信息即可，在这个类里，全局只维护了唯一的toast ，不会出现多个toast覆盖和长时间显示不消退
+2016年8月30日20:09:38</p>
+<script type='text/javascript'>
+$(document).ready(function(){
+  if($('code').length>0){
+    $('code').parent().addClass('prettyprint');
+    prettyPrint();
+};
+});
+</script>
+</body>
+</html>
