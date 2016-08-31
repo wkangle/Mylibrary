@@ -18,6 +18,8 @@ weixin: feimeng16
 #Module pickerView  *********************start************************:
 
 pickerView 和wheelView，用于选择String数据，可任意设置显示数据，默认位置等
+
+
 ![image](https://github.com/wkangle/Mylibrary/blob/master/pickerview/gif/pickerView.gif )
 
 
