@@ -1,9 +1,7 @@
 package com.kangle.library.subActivity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-import com.kangle.library.R;
+import android.support.v7.app.AppCompatActivity;
 
 public class BaseActivity extends AppCompatActivity {
 

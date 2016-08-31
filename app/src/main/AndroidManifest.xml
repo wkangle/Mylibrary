@@ -16,7 +16,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".subActivity.BaseActivity" />
-        <activity android:name=".subActivity.A00Activity"></activity>
+        <activity android:name=".subActivity.A00Activity" />
+        <activity android:name=".subActivity.A01Activity" />
+        <activity android:name=".subsubActivity.A01sub01Activity" />
+        <activity android:name=".subActivity.A02Activity" />
+        <activity android:name=".subsubActivity.A02sub01Activity" />
+
     </application>
 
 </manifest>

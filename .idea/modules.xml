@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Mylibrary.iml" filepath="$PROJECT_DIR$/Mylibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageviewModule/imageviewModule.iml" filepath="$PROJECT_DIR$/imageviewModule/imageviewModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/logutil/logutil.iml" filepath="$PROJECT_DIR$/logutil/logutil.iml" />
       <module fileurl="file://$PROJECT_DIR$/mydialog/mydialog.iml" filepath="$PROJECT_DIR$/mydialog/mydialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pickerview/pickerview.iml" filepath="$PROJECT_DIR$/pickerview/pickerview.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_a01sub"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kangle.library.subsubActivity.A01sub01Activity"
+    xmlns:circletextview="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:textSize="14sp"
+        android:text="该view集成了imgageView，但是不能用于显示圆形图片，只能用于显示一个圆形背景色，颜色可以定义随机变化，中间可以显示文字，并且可以控制是否只显示所给字符串的第一个字符"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <kangle.CircleTextImage.CircleTextImage
+        android:id="@+id/ctView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        circletextview:random_color="true"
+        circletextview:circle_text_color="#ff0000"
+        />
+
+
+    <kangle.CircleTextImage.CircleTextImage
+        android:id="@+id/ctView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        circletextview:random_color="true"
+        circletextview:sub_first_character="true"
+        />
+
+
+    <kangle.CircleTextImage.CircleTextImage
+        android:id="@+id/ctView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        circletextview:random_color="false"
+        circletextview:circle_color="#ff0000"
+        circletextview:circle_text_color="#00ff00"
+        circletextview:sub_first_character="true"
+        />
+
+
+    <kangle.CircleTextImage.CircleTextImage
+        android:id="@+id/ctView4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        circletextview:random_color="true"
+        circletextview:sub_first_character="false"
+        />
+
+</LinearLayout>

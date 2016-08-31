@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--CircleTextImage-->
+    <declare-styleable name="circletextview">
+        <!--view的颜色-->
+        <attr name="circle_color" format="color" />
+        <!--文字的颜色-->
+        <attr name="circle_text_color" format="color" />
+        <!--是否开启view随机颜色-->
+        <attr name="random_color" format="boolean" />
+        <!--是否只显示所给字符串的第一个文字-->
+        <attr name="sub_first_character" format="boolean" />
+    </declare-styleable>
+</resources>
