@@ -1,11 +1,9 @@
 package com.kangle.library.subsubActivity;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import com.kangle.library.Activity.MainActivity;
 import com.kangle.library.R;
 
 import java.util.ArrayList;

@@ -13,6 +13,9 @@ import com.kangle.library.R;
 import com.kangle.library.subActivity.A00Activity;
 import com.kangle.library.subActivity.A01Activity;
 import com.kangle.library.subActivity.A02Activity;
+import com.kangle.library.subActivity.A03Activity;
+import com.kangle.library.subActivity.A04Activity;
+import com.kangle.library.subActivity.A05Activity;
 
 import kangle.logutil.LogUtils;
 
@@ -24,11 +27,19 @@ public class MainActivity extends AppCompatActivity {
     private Class[] As = new Class[]{
             A00Activity.class,
             A01Activity.class,
-            A02Activity.class};
+            A02Activity.class,
+            A03Activity.class,
+            A04Activity.class,
+            A05Activity.class
+    };
     private String[] nameS = new String[]{
             "A00_自定义对话框及吐司",
             "A01_imageView图片相关",
-            "A02_选择器 select"};
+            "A02_选择器 select",
+            "A03_进度条，进度环，progressBar",
+            "A04_下拉刷新上拉无限加载\nRecycleView",
+            "A05_仿QQ身边的人的效果,横向滑动的gallery"
+    };
 
 
     private Context mContext = MainActivity.this;

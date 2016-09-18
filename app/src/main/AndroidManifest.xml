@@ -21,7 +21,13 @@
         <activity android:name=".subsubActivity.A01sub01Activity" />
         <activity android:name=".subActivity.A02Activity" />
         <activity android:name=".subsubActivity.A02sub01Activity" />
-
+        <activity android:name=".subActivity.A03Activity" />
+        <activity android:name=".subsubActivity.A03sub01Activity" />
+        <activity android:name=".subActivity.A04Activity" />
+        <activity
+            android:name=".subActivity.A05Activity"
+            android:label="@string/title_activity_a05"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

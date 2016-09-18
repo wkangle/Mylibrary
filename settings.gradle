@@ -1,1 +1,1 @@
-include ':app', ':logutil', ':mydialog', ':imageviewModule', ':pickerview'
+include ':app', ':logutil', ':mydialog', ':imageviewModule', ':pickerview', ':progressmodule', ':pullloadview', ':coverflow'

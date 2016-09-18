@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">我的library</string>
     <string name="title_activity_a02">A02Activity</string>
+    <string name="title_activity_a05">A05Activity</string>
 </resources>
